@@ -1,0 +1,20 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# LangChain
+langchain==0.3.9
+langchain-google-genai==2.0.5
+langchain-chroma==0.1.4
+
+# Vector Store
+chromadb==0.5.23
+
+# Document Processing
+pypdf==5.1.0
+python-docx==1.1.2
+
+# Optional
+httpx==0.28.0

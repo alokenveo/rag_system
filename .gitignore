@@ -1,0 +1,55 @@
+# --- Entorno virtual ---
+venv/
+ENV/
+env/
+
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Archivos temporales ---
+*.tmp
+*.log
+*.pid
+*.bak
+
+# --- Variables de entorno ---
+.env
+*.env
+
+# --- Carpetas del proyecto que no deben subirse ---
+uploads/
+data/
+
+# --- Uvicorn / Gunicorn ---
+*.sock
+
+# --- Pytest ---
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- MyPy ---
+.mypy_cache/
+
+# --- Herramientas de cache ---
+.cache/
+.ipynb_checkpoints/
+
+# --- Configuración de editores ---
+.vscode/
+.idea/
+
+# --- Distribución de paquetes ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+Desktop.ini
